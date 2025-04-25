@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc6e788c-6f68-4b8a-b5d9-f7f973501bc4" name="Changes" comment="Change">
+    <list default="true" id="fc6e788c-6f68-4b8a-b5d9-f7f973501bc4" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/eatz.front.ui.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +86,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.Unnamed.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
@@ -102,6 +103,36 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -123,6 +154,10 @@
       <workItem from="1744895087479" duration="745000" />
       <workItem from="1744942790625" duration="8450000" />
       <workItem from="1745194071229" duration="1598000" />
+      <workItem from="1745196644420" duration="5369000" />
+      <workItem from="1745280164640" duration="17060000" />
+      <workItem from="1745367343374" duration="1667000" />
+      <workItem from="1745372996427" duration="2753000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <option name="closed" value="true" />
@@ -140,15 +175,33 @@
       <option name="project" value="LOCAL" />
       <updated>1744943164965</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Change: 4/21 commit and push test">
+      <option name="closed" value="true" />
+      <created>1745196884778</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745196884778</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="2a3064ef-110c-4def-a790-5d9ddb921b6b" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="2a3064ef-110c-4def-a790-5d9ddb921b6b">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -160,7 +213,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes" />
     <MESSAGE value="changed from vscode by intelliJ" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed from vscode by intelliJ" />
+    <MESSAGE value="Change: 4/21 commit and push test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: 4/21 commit and push test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
