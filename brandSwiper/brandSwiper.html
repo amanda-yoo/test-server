@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>brand swiper</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+</head>
+<body>
+  <section>
+    <div class="swiper-container-wrap brand-list-wrap">
+      <!-- s: swiper container -->
+      <div class="swiper-container">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            
+          </li>
+        </ul>
+      </div>
+      <!-- // e: swiper container -->
+
+      <!-- s: swiper control -->
+      <div class="swiper-control-wrap">
+        <button type="button" class="swiper-button-prev">
+          <span class="offscreen">이전</span>
+        </button>
+        <button type="button" class="swiper-button-next">
+          <span class="offscreen">다음</span>
+        </button>
+      </div>
+      <!-- // e: swiper control -->
+
+      <!-- s: swiper pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- // e: swiper pagination -->
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script defer src="./js/SwiperBrandItemView.js"></script>
+  <script defer src="./js/BrandItemView.js"></script>
+  <script src="./js/brandSwiper.js"></script>
+</body>
+</html>
