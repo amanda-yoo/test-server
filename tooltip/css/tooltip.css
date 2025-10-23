@@ -1,0 +1,12 @@
+.tooltip-wrap{position: relative;display: inline-block;vertical-align: top;box-sizing: border-box;}
+.tooltip-wrap .tooltip-box{display: block;position: absolute;left: 0;top: 16px;z-index: 15;overflow: hidden;width: 340px;padding: 16px 42px 16px 16px;margin-top: 6px;background-color: #fff;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;opacity: 0;transform: scaleY(0);transition: opacity 0.3s ease-out;}
+.tooltip-wrap .btn-tooltip-close{display: block;position: absolute;right: 16px;top: 16px;width: 16px;height: 16px;background: url('./images/ico_tooltip_close.png') no-repeat 0 0 cover;}
+
+.tooltip-wrap.active .btn-info .ico-info-tooltip{border-color: #444;background: url('./images/ico_tooltip_active.png') no-repeat 0 0 / cover;}
+.tooltip-wrap.active .tooltip-box{opacity: 1;transform: scale(1);}
+
+.tooltip-wrap.hide .tooltip-box{transform: scale(0);transition: opacity 0.3s ease-out, transform 0s 0.3s;}
+
+@media screen and (max-width: 890px){
+  .tooltip-wrap .tooltip-box{width: calc(100vw - 40px);max-width: 480px;}
+}
